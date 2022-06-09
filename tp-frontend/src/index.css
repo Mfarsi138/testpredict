@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0px 0px 50px 0px;
+}
+
+
+code {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.titletp
+{
+  padding-left: 200px;
+}
+
+.MuiCard-root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head {
+  position: sticky;
+  z-index: 999;
+  top: -10px;
+  box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
